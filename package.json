@@ -1,0 +1,41 @@
+{
+  "name": "gulp-es6-node-module",
+  "version": "0.1.0",
+  "description": "A gulp wrapper for the es6-node-module library, intended to support es6-es5 builds.",
+  "license": "MIT",
+  "repository": "christyharagan/gulp-es6-node-module",
+  "author": {
+    "name": "Christy Haragan",
+    "email": "christy.haragan.github@gmail.com",
+    "url": "https://github.com/christyharagan"
+  },
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "node",
+    "es6",
+    "harmony",
+    "module",
+    "commonjs",
+    "gulp",
+    "transpiler"
+  ],
+  "dependencies": {
+    "es6-node-module": "^0.1.0",
+    "through2": "^0.6.3",
+    "vinyl": "^0.4.3"
+  },
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "mocha": "~1.20.0",
+    "vinyl-fs": "~0.3.13"
+  }
+}
